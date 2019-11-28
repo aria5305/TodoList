@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="../style.css">
+    
+</head>
+<body>
+
+    <nav class="topMenu">
+        
+            <div class="topMenu__logo">
+                    <i class="far fa-check-square"></i>
+                To Do List
+            </div>
+
+            <!-- <div class="topMenu__searchbar"> -->
+                    <!-- <form action="#" class="search">
+                            <input type="text" class="search__input" placeholder="Search...">
+                            <button class="search__button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                    </form> -->
+            <!-- </div> -->
+
+            <div class="topMenu__info">
+
+            </div>
+    </nav>
+
+    <main class="container">
+
+        <div class="leftContainer">
+
+       
+
+
+  
+
+            <ul class="taskBar">
+
+            <!-- <input type="checkbox" class="toggle__checkbox" id="navi-toggle">
+        
+             <label class="toggle__button" for="navi-toggle">
+                        <span class="toggle__icon">&nbsp;</span>
+            </label> --> 
+
+                <li class="taskBar__item todo"><i class="fas fa-sun"></i><span class="taskBar__title">Default</span></li>
+                <!-- <li  class="taskBar__item"><i class="fas fa-star"></i><span>Important</span></li>
+                <li  class="taskBar__item"><i class="fas fa-sticky-note"></i><span>Quick Note</span></li> -->
+                <li class="taskBar__item" id="addProject"><i class="fas fa-plus"></i><span class="taskBar__title">New Project</span></li>
+            </ul>
+        
+        </div>
+        
+        <div class="rightContainer">
+            <div class="task__header">
+                <div class="task__header-left">
+                    <h2 class="heading__primary">Default Project </h2>
+                </div>
+
+                
+            </div>
+
+            <div class="task__displays">
+                <div class="task__inputContainer">
+                    <!-- <div class="plussign">
+                    </div> -->
+
+                    <form class="addTodo toggleInputField">
+                    <!--  <input type="text"  placeholder="Add task here" class="list__add  getValue" required>
+                        <div class="inputfieldContainer">
+                            <input type="text"placeholder="Brief description here to describe task" class="getValue list__add-describe">
+                            <label for="duedate">Due Date</label>
+                            <input type="date" id="duedate"
+                            min="2019-11-13" max="2099-12-31"  class="getValue list__add-duedate">
+                             
+                        </div>
+                    <button class="btn-submit" type="submit">Submit</button>
+                    <button class="btn-cancel">Cancel</button>-->
+                        </form> 
+                    </div>
+            
+                    <ul class="list">
+  
+                     <!-- <li class="list__item">
+                        <label class="list__check">
+                            <input type="checkbox" class="list__checkbox" id="toDoCheck">
+                            <span class="list__tick"></span>
+                        </label>
+                    
+                        <div class="list__toDo">
+                            <label for="toDoCheck" class="heading__secondary">
+                                After putting in your todo, press enter or click the add circle to add todo to list  </label>
+                            <p class="paragraph">You must have at least a To do title to add a todo</p>
+                            <p class="paragraph">!!click the circle on the left to mark to do as done!
+                                You can mark it as important!
+                            </p>
+                            
+                            <span class="paragraph-red">Due date: 2019-11-13</span>
+                            </div> -->
+                        </div>
+                        
+                    </li> 
+                    
+                    </ul>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <!-- <script src="../src/index.js" type="module"></script> -->
+    <script src="main.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/b4789a145c.js" crossorigin="anonymous"></script>
+</body>
+</html>
